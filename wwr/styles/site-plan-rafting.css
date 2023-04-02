@@ -38,13 +38,13 @@ body {
   text-align: center;
 }
 img {
-  display: block;
+  display:<display-outside> || <display-inside> || <display-listitem> | <display-internal> | <display-box> | <display-legecy> ;
   margin: 0 auto;
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: var("Noto Serif");
+  color: var(Lora, Helvetica, sans-serif);
 }
 h2 {
   text-align: center;
@@ -52,20 +52,20 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: var(#5DD9C1);
 }
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  color: var(white);
+  background-color: var(#5DD9C1);
 }
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: var(white);
 }
 p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  font-family: var(Lora, Helvetica, sans-serif);
+  color: var(#396E94);
   padding: 1em;
 }
 .colors {
@@ -82,23 +82,23 @@ p {
   height: 3em;
 }
 .primary {
-  background-color: var(--primary-color);
+  background-color: var(#5DD9C1);
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: var(#004E64);
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: var(#004E64);
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: var(#486400);
 }
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+  background-color: var(#5DD9C1);
+  color: var(-#004E64);
 }
 nav {
-  background-color: var(--nav-background-color);
+  background-color: var(#004E64);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -150,7 +150,7 @@ nav a:hover {
   line-height: 3em;
 }
 .top {
-  grid-area: top;
+  grid-area: top-nav;
   border-left: 1px solid;
 }
 .left {
