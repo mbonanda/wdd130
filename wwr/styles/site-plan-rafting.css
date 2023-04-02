@@ -38,9 +38,9 @@ body {
   text-align: center;
 }
 img {
-  display:<display-outside> || <display-inside> || <display-listitem> | <display-internal> | <display-box> | <display-legecy> ;
-  margin: 0 auto;
-  max-width: 300px;
+  display: [ <display-outside> || <display-inside> ]| <display-listitem> | <display-internal> | <display-box> | <display-legecy> ;
+  margin: {0 auto};
+  max-width: {300px};
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var("Noto Serif");
