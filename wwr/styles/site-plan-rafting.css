@@ -38,7 +38,7 @@ body {
   text-align: center;
 }
 img {
-  display: ;
+  display: [<display-outside>||<display-inside>];
   margin: 0 auto;
   max-width: 300px;
 }
