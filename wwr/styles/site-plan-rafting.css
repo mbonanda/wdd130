@@ -2,23 +2,23 @@
 Pallet url('https://coolors.co/palette/ffc09f-ffee93-fcf5c7-a0ced9-adf7b6');
 
 :root {
-    --primary-color: #C6E2E9
-    --secondary-color: #FFCAAF
-    --accent1-color: #A7BED3
-    --accent2-color: #F1FFC4
+    --primary-color: #C6E2E9;
+    --secondary-color: #FFCAAF;
+    --accent1-color: #A7BED3;
+    --accent2-color: #F1FFC4;
 
-    --heading-font: inria-serif, serif ;
-    --paragraph-font: cormorant, serif ;
+    --heading-font: inria-serif, serif;
+    --paragraph-font: cormorant, serif;
 
-    --nav-background-color: #FFCAAF
-    --nav-link-color: #F1FFC4
-    --nav-hover-lonk-color: #FFCAAF
-    --nav-hover-backgound-color: #F1FFC4
+    --nav-background-color: #FFCAAF;
+    --nav-link-color: #F1FFC4;
+    --nav-hover-lonk-color: #FFCAAF;
+    --nav-hover-backgound-color: #F1FFC4;
 }
 body {
     f      : var(--paragraph-font);
-    m       :               ;
-    p        :              ;
+    m      :    ;
+    p      :    ;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
