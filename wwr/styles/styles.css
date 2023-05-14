@@ -23,7 +23,7 @@ Pallet url('https://coolors.co/palette/ffc09f-ffee93-fcf5c7-a0ced9-adf7b6');
 header, .grid, footer {
     display: grid;
     width: 100%
-    margin: 1rem auto;
+    margin: auto;
     background-color: steelblue;
     grid-template-columns: 120px 1fr 2fr;
     align-items: :right;
