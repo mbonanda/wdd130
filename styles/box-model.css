@@ -1,31 +1,27 @@
-.callout {
-	width: 400px;
-	margin: 10px;
-	border: 1px solid rgba(0,0,0,.1);
-	padding: 15px;
-	background-color: #247;
-	color: #fff;
+body {
+    background-color: #f0f0f0; /* Set a background color for the body */
 }
 
-.callout img {
-	float: right;
-	margin: 0 0 10px 15px;
-	border: 1px solid #000;
-	padding: 3px;
-	background-color: #bbb;
-	width: 100px;
-	height: auto;
-	
+.container {
+    background-color: steelblue; /* Set a steel blue background for the container */
+    padding: 20px; /* Add padding to the container */
+    border: 1px solid #ccc; /* Add a border to the container */
+    border-radius: 10px; /* Optional: Add rounded corners to the container */
+    margin: 20px; /* Add margin for spacing around the container */
+    float: left; /* Make the container float to the left */
 }
 
-blockquote {
-	margin: 0;
+.container img {
+    width: 150px;
+    height: auto;
+    border: 2px solid white; /* Add a border around the image */
+    padding: 5px; /* Add padding around the image */
+    box-shadow: 0 0 10px gray; /* Add a box shadow to the image */
 }
 
-cite {
-	display: block;
-	border-top: 1px dotted #fff;
-	padding-top: 3px;
-	text-align: right;
-	font-size: smaller;
+/* Clear the float to prevent layout issues with subsequent elements */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }

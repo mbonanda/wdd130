@@ -9,18 +9,21 @@ nav a {
     padding: 20px;
 }
 
-h1 {
-    color: steelblue;
-}
+    h1 {
+        color: steelblue;
+    }
 
 img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: 2x;
     box-shadow: 0 0 30px gray;
+    padding: 10px;
 }
 
-p {
+footer {
+    background-color: steelblue;
     padding: 10px;
+    font-size: smaller;
 }
