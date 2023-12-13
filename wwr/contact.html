@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/contactus.css" type="text/css">
     <meta name="Author" content="Abe Mbonani">
 </head>
 <body>
@@ -18,16 +18,47 @@
         </nav>
     </header>
     <main>
-       
-            <section>
-                <h2>Adventure Awaits You!</h2>
-                <p>
-                    <img src="images/camping.jpg" alt="camping" width="">
-                    <img src="images/mountains.jpg" alt="mountains" width="">
-                    <img src="images/rafting009.jpg" alt="rafting" width="">
-                    <img src="images/rapids.jpg" alt="rapids" width="">
-                    <img src="images/rivers.jpg" alt="rivers" width="">
-                </p>
+        <h2>Contact Us</h2>    
+        <section>
+                <form>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <!--form elements will go here-->
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                        <lable for="email">Email:</lable>
+                        <input type="email" id="usermail" name="usermail">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Questions</legend>
+                        <!--form elements will go here-->
+                        <label for="browser">What is your favorite browser?</label>
+                        <select id="browser" name="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="safari">Safari</option>
+                            <option value="edge">Edge</option>
+                            <option value="brave">Brave</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                        <label for="feedback">List the places you have lived:</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                   </fieldset>
+                   <button type="submit">Submit Poll</button>
+                </form>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                </div>
+                <div class="form-item column2">
+                    <label for="usermaiil">Email</label>
+                    <input type="email" id="usermail" name="usermail">
+                </div>
+                <h2>Map</h2>
+                <div>
+                    
+                </div>
             </section>
     </main>    
 </body>
