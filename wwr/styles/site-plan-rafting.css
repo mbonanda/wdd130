@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --Primary-color: #32CBFF;
+    --Secondary-color: #EAF0CE;
+    --Accent1-color: #D3C2CE;
+    --Accent2-color: #88BB92;
+
+    --heading-font: 'verdana', serif;
+    --paragraph-font:'tahoma', serif;
+
+    --nav-background-color: #eaf0ce;
+    --nav-link-color: rgba(44, 115, 230, 0.8);
+    --nav-hover-link-color: #66b066;
+    --nav-hover-background-color: rgba(165, 32, 119, 0);
+
+}
+
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header {
+    padding: 20px;
+    background-color: steelblue;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: antiquewhite;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: #66b066;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: blue;
+    background-color: #EAF0CE;
+}
+
