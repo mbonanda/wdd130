@@ -37,20 +37,20 @@ p {
 }
 
 nav {
-    background-color: antiquewhite;
+    background-color: steelblue;
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: #66b066;
+    color: white;
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:hover {
-    color: blue;
-    background-color: #EAF0CE;
+    color: #aaa;
+    background-color: #0e2667;
 }
 
