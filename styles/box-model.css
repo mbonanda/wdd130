@@ -9,17 +9,17 @@
 
  img {
 	border: 2px solid white;
-    float: right;
-    display: inline;
+    float: inline-end;
+    
 }
 
 blockquote {
-    float: right;
     font-size: 20px;	
 }
 
 cite {
     text-decoration: overline;
-    text-align: left;
+    text-align: right;
     font-size: medium;
+    
 }
