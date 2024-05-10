@@ -1,7 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
 main {
     max-width: 840px;
+    padding: 10px;
 }
 
 aside {
@@ -29,21 +46,29 @@ h1 {
     color: steelblue;
 }
 
-#main img {
+.main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 #aside img {
     width: 200px;
     height: auto;
+    margin-right: 10px;
+}
+
+aside h2 {
+    position: relative;
+    top: 47px;
+    left: 20px;
 }
 
 p {
-    padding: 0;
+    padding: 10px;
 }
 
 footer {
