@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --Primary-color: #32CBFF;
+    --Secondary-color: #EAF0CE;
+    --Accent1-color: #D3C2CE;
+    --Accent2-color: #88BB92;
+
+    --heading-font: 'verdana', serif;
+    --paragraph-font:'tahoma', serif;
+
+    --nav-background-color: #eaf0ce;
+    --nav-link-color: rgba(44, 115, 230, 0.8);
+    --nav-hover-link-color: #66b066;
+    --nav-hover-background-color: rgba(165, 32, 119, 0);
+
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-family: cursive;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1-h6 {
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(44, 115, 230, 0.8);
+    width: 100%;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: steelblue;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: justify;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: justify;
+}
+
+nav a:hover {
+    color: #aaa;
+    background-color: #0e2667;
+    
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    float: inline-end;
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-flex
+}

@@ -2,8 +2,9 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    max-width: 960px;
+    max-width: 100%;
     padding: 20px;
+    margin-right: 20px;
 }
 
 :root {
@@ -30,6 +31,7 @@ h1-h6 {
 header {
     padding: 20px;
     background-color: steelblue;
+    width: 100%;
 }
 
 p {
