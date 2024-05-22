@@ -10,11 +10,10 @@
  img {
 	border: 2px solid white;
     float: right;
-    display: inline;
 }
 
 blockquote {
-    float: right;
+    float: left;
     font-size: 20px;	
 }
 
