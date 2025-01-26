@@ -1,3 +1,11 @@
+:root {
+    --heading-background-color: #067ef6;
+    --heading-text-color:var(--heading-background-color);
+    --heading-font: sans-serif, Arial;
+    --padding: 1rem;
+    --border: 1px solid rgb();
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
